@@ -1,0 +1,11 @@
+div {
+  position: relative;
+  display: block;
+  padding-top: 56.25%;
+  background-size: cover;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}

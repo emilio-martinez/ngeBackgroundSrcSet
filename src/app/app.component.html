@@ -1,0 +1,6 @@
+<button (click)="increase()">Increase (currently {{sizes}})</button>
+<p *ngIf="lastChange">Last change: {{lastChange}}</p>
+<div ngeBackgroundSrc="https://picsum.photos/1440/810" 
+  ngeBackgroundSrcSet="https://picsum.photos/640/360 640w, https://picsum.photos/960/540 960w, https://picsum.photos/1440/810 1280w"
+  [ngeBackgroundSizes]="sizes"
+  (backgroundChange)="change()"></div>
